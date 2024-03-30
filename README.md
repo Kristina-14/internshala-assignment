@@ -5,10 +5,10 @@ This is a simple Car Rental Portal implemented in PHP using MySQL database.
 
 ## Features
 
-1. **Registration**: Users can register for an account to access the portal.
-2. **Login**: Registered users can log in to their accounts.
-3. **Add New Cars**: Admin users can add new cars to the portal.
-4. **Available Cars to Rent**: Users can view available cars and rent them.
+1. **Registration**: Users can register for an account to access the portal. You can select between Customer or Dealer.
+2. **Login**: Registered users can log in to their accounts(Customer/Dealer).
+3. **Add New Cars**: Admin (Dealer) can add new cars to the portal for rental.
+4. **Available Cars to Rent**: Users (Customers) can view available cars and rent them.
 
 ## Requirements
 
@@ -16,21 +16,22 @@ This is a simple Car Rental Portal implemented in PHP using MySQL database.
 - MySQL
 - Web Server (e.g., Apache)
 - Web Browser
+- Xampp
 
 ## Installation
 
-1. Clone this repository to your web server directory.
-2. Import the included MySQL database dump (`car_rental.sql`) into your MySQL database.
+1. Install the Xampp Server and VSCode IDE.
+2. Create the required MySQL database dump (`car_rental.sql`) in MySQL database.
 3. Configure the database connection in the PHP files (`config.php` or similar).
-4. Make sure your web server is running.
+4. Make sure your web server is running(localhost).
 5. Access the portal through your web browser.
 
 ## Usage
 
-1. Register for an account if you are a new user.
+1. SignUp for an account if you are a new user.
 2. Log in with your credentials.
-3. If you are an admin, you can add new cars to the portal.
-4. Users can browse available cars and rent them.
+3. If you are an admin/dealer, you can add new cars to the portal.
+4. Users/Customers can browse available cars and rent them.
 
 ## Contributing
 
@@ -39,3 +40,7 @@ Contributions are welcome! Please feel free to submit issues and pull requests.
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+## Author
+This project is done by Kristina Barooah. 
+
