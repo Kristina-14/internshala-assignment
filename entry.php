@@ -18,11 +18,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
   <img style="width: 48%; height:40%;" src="public\carRental.jpeg" class="card-img-top" alt="Car Rental">
-  <a href="/internshala-assignment/login.php">
+  <a href="/internshala-assignment/signup.php">
   <button style="width: 150px; height: 100px; margin:10%" type="button" class="btn btn-success">
   Join as a Customers</button></a>
   
-  <a href="/internshala-assignment/login.php" style="text-decoration: none">
+  <a href="/internshala-assignment/signupD.php" style="text-decoration: none">
   <button style="width: 150px; height: 100px;" type="button" class="btn btn-warning">Join as a Dealer</button>
   </a>
 

@@ -10,11 +10,14 @@
           <a class="nav-link active" aria-current="page" href="/internshala-assignment/entry.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/internshala-assignment/login.php">Login</a>
+          <a class="nav-link" href="/internshala-assignment/login.php">Login as Customer</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/internshala-assignment/signup.php">Sign Up</a>
+          <a class="nav-link" href="/internshala-assignment/loginD.php">Login as Dealer</a>
         </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="/internshala-assignment/signup.php">Sign Up</a>
+        </li> -->
         <li class="nav-item">
           <a class="nav-link" href="/internshala-assignment/logout.php">Logout</a>
         </li>

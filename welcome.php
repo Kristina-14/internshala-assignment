@@ -33,8 +33,12 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] != true){
   <div class="card" style="width: 18rem; margin: 20px;">
   <img src="public\296gts.jpg" class="card-img-top" alt="Ferrari 296 GTB">
   <div class="card-body">
-    <h5 class="card-title">Ferrari 296 GTB</h5>
-    <p class="card-text">The FFerrari unveiled the 296 GTB on June 24, 2021, and it went on sale in 2022. The 296 GTB is a two-seater berlinetta sports car with a mid-rear engine, a 120° V6 engine, and a plug-in electric motor that can produce up to 830 cv</p>
+  <b class="card-title">Vehicle model: Ferrari 296 GTB</b>
+   <br/> <b class="card-title">Vehicle number: F296</b>
+   <br/> <b class="card-title">Seating Capacity: 4</b>
+   <br/> <b class="card-title">Rent per day : $380</b>
+<br/>
+    <p class="card-text">The Ferrari unveiled the 296 GTB on June 24, 2021, and it went on sale in 2022. The 296 GTB is a two-seater berlinetta sports car with a mid-rear engine, a 120° V6 engine, and a plug-in electric motor that can produce up to 830 cv</p>
     <a href="#" class="btn btn-primary">Rent Now</a>
   </div>
 </div>
@@ -42,7 +46,11 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] != true){
 <div class="card" style="width: 18rem; margin: 20px">
   <img src="public\ferrari-roma.webp" class="card-img-top" alt="Ferrari 296 GTB">
   <div class="card-body">
-    <h5 class="card-title">Ferrari Roma</h5>
+    <b class="card-title">Vehicle model: Ferrari Roma</b>
+   <br/> <b class="card-title">Vehicle number: FR9812</b>
+   <br/> <b class="card-title">Seating Capacity: 3</b>
+   <br/> <b class="card-title">Rent per day : $450</b>
+<br/>
     <p class="card-text">The vehicle is a stunning thing to look at, with a minimalist (by today’s standards) grille and a shark-nose front end. It’s long, lean, and so utterly Ferrari. 
     </p>
     <a href="#" class="btn btn-primary">Rent Now</a>
@@ -51,7 +59,11 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] != true){
 <div class="card" style="width: 18rem; margin: 20px">
   <img src="public\purosangue.jpg" class="card-img-top" alt="Ferrari 296 GTB">
   <div class="card-body">
-    <h5 class="card-title">Ferrari Purosangue</h5>
+    <b class="card-title">Vehicle model: Ferrari Purosangue</b>
+   <br/> <b class="card-title">Vehicle number: FP7812</b>
+   <br/> <b class="card-title">Seating Capacity: 4</b>
+   <br/> <b class="card-title">Rent per day : $170</b>
+<br/>
     <p class="card-text">The Ferrari Purosangue is the first ever four-door, four-seater car in Ferrari’s history, but models with two rear seats have played a significant role in the company’s strategy since the very beginning. 
     </p>
     <a href="#" class="btn btn-primary">Rent Now</a>
@@ -60,7 +72,11 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] != true){
 <div class="card" style="width: 18rem; margin: 20px">
   <img src="public\Portofino.jpg" class="card-img-top" alt="Ferrari 296 GTB">
   <div class="card-body">
-    <h5 class="card-title">Ferrari Testarossa</h5>
+    <b class="card-title">Vehicle model: Ferrari Testarossa</b>
+   <br/> <b class="card-title">Vehicle number: FT7914</b>
+   <br/> <b class="card-title">Seating Capacity: 4</b>
+   <br/> <b class="card-title">Rent per day : $325</b>
+<br/>
     <p class="card-text">The Ferrari Testarossa Spider is a 12-cylinder supercar that debuted in 1984, but never made it to series production. Ferrari built one Spider specifically for Gianni Agnelli, and its s/n is 62987</p>
     <a href="#" class="btn btn-primary">Rent Now</a>
   </div>

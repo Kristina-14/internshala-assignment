@@ -9,7 +9,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
         $password = $_POST["password"];
 
         
-            $sql = "Select * from users where username='$username' AND email='$email1' AND password='$password'";            
+            $sql = "Select * from customer where username='$username' AND email='$email1' AND password='$password'";            
             $result = mysqli_query($conn, $sql);
             $num = mysqli_num_rows($result);
             if($num == 1){
@@ -18,7 +18,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
                 session_start();
                 $_SESSION['loggedin'] = true;
                 $_SESSION['username'] = $username;
-                header("location: welcome.php");
+                header("location: addCars.php");
             }        
             else{
                 $showError = "Invalid Credentials. Sign Up, first!";
@@ -55,7 +55,7 @@ if($showError)
    <div class="container">
     <h2 class="text-center">Login to your Account</h2>
     <br/><br/><br/>
-                <form action="/internshala-assignment/login.php" method="post">
+                <form action="/internshala-assignment/loginD.php" method="post">
                 <div class="mb-3">
                     <label for="username" class="form-label" style="font-weight: bold;">User Name</label>
                     <input type="text" class="form-control" id="username" name="username" aria-describedby="emailHelp">
